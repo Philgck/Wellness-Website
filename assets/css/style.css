@@ -1,0 +1,52 @@
+/* General */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Handlee', cursive;
+}
+
+/* Navbar */
+
+.navbar-custom {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+/* Hero  section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #FFEBD4;
+}
+
+.hero .btn {
+    color: #3b2f2f;
+}
+
+/* Services */
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+}
