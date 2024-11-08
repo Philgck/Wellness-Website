@@ -77,6 +77,13 @@ h6 {
     text-align: center;
 }
 
+/* Contact Form */
+
+.contact-form {
+    background-color: var(--light-brown);
+    color: var(--light-white);
+}
+
 /* Footer */
 .footer {
     background-color: var(--light-brown);
